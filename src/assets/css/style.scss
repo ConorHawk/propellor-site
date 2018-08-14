@@ -106,6 +106,14 @@ a.router-link-active {
     @apply shadow-dark-lg bg-orange-darker;
     transform:translateY(-2px);
   }
+  &.hollow {
+    @apply bg-white text-orange;
+    &:hover,
+    &:focus {
+      @apply shadow-dark-lg bg-orange-darker text-white;
+      transform: translateY(-2px);
+    }
+  }
 }
 
 .embed-container {

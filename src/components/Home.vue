@@ -1,12 +1,34 @@
 <template>
 <div>
-  <div class="relative bg-black flex items-center justify-center" style="min-height:600px;">
-    <div class="absolute h-full w-full z-10 bg-cover bg-center opacity-25" style="backgroundImage:url(https://images.pexels.com/photos/32870/pexels-photo.jpg?cs=srgb&dl=backyard-house-lights-32870.jpg&fm=jpg)"></div>
-    <div class="relative z-20 flex items-center container">
-      <div class="w-1/2">
-        <h1 style="font-size: 3.25rem;line-height:1.6" class="main-title text-white inline p-2">Discover how we can <span class="text-orange">start</span> or help you <span class="text-orange">grow</span> your property portfolio!</h1>
+  <div class="bg-orange-dark text-white relative">
+    <div class="absolute pin-t pin-r px-2 py-1">
+      <button class="text-white">
+        <span class="fa fa-times"></span>
+      </button>
+    </div>
+    <div class="container mx-auto flex p-2 justify-between">
+      <div class="flex items-center">
+        <div>
+          <i class="fas fa-calendar text-4xl"></i>
+        </div>
+        <div class="px-4">
+          <h3 class="text-base">Event or Special</h3>
+          <p class="text-sm font-sans my-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
       </div>
-      <div class="w-1/2">
+      <div class="flex-none flex items-center">
+        <button class="btn hollow text-sm">Read more</button>
+      </div>
+    </div>
+  </div>
+  <div class="relative bg-black flex items-center justify-center h-128">
+    <div class="absolute h-full w-full z-10 bg-cover bg-center opacity-25" style="backgroundImage:url(https://images.pexels.com/photos/32870/pexels-photo.jpg?cs=srgb&dl=backyard-house-lights-32870.jpg&fm=jpg)"></div>
+    <div class="relative z-20 flex items-center container flex-wrap p-4">
+      <div class="w-full md:w-1/2 py-4">
+        <h1 style="line-height:1.6" class="main-title text-white inline p-2 text-2xl md:text-6xl">Discover how we can <span class="text-orange">start</span> or help you <span class="text-orange">grow</span> your property portfolio!</h1>
+        <button class="btn mt-4">How can we help you?</button>
+      </div>
+      <div class="w-full md:w-1/2">
           <div class='embed-container'><iframe :src='`https://www.youtube.com/embed/H4h6ZvtAeFc?rel=0&amp;showinfo=0`' frameborder='0' allowfullscreen></iframe></div>
       </div>
     </div>
@@ -21,8 +43,117 @@
       <router-link class="btn mt-8" tag="button" to="/investments">Find Out More</router-link>
     </div>
   </div>
+
+  <div class="bg-grey-lightest">
+    <div class="container mx-auto flex flex-wrap items-center py-12">
+      <div class="w-full md:w-2/3 p-4">
+        <img class="w-full" src="https://placeimg.com/1000/610/arch" alt="">
+      </div>
+      <div class="w-full md:w-1/3 flex items-center p-4">
+        <div>
+          <h2>Layout 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eveniet doloremque similique? Neque nemo illo quaerat, tempore voluptates sequi iure, perferendis repellendus numquam iste excepturi, eos quod minima at dicta.</p>
+          <button class="btn mt-4">Button</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container mx-auto flex flex-wrap items-center py-12">
+      <div class="w-full md:w-1/3 p-4">
+        <img class="w-full" src="https://placeimg.com/1000/610/arch" alt="">
+      </div>
+      <div class="w-full md:w-2/3 flex items-center p-4">
+        <div>
+          <h2>Layout 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eveniet doloremque similique? Neque nemo illo quaerat, tempore voluptates sequi iure, perferendis repellendus numquam iste excepturi, eos quod minima at dicta.</p>
+          <button class="btn mt-4">Button</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-grey-darkest text-white">
+    <div class="container mx-auto flex flex-wrap items-center py-12">
+      <div class="w-full md:w-1/3 p-4">
+        <img class="w-full" src="https://placeimg.com/1000/610/arch" alt="">
+      </div>
+      <div class="w-full md:w-2/3 flex items-center p-4">
+        <div>
+          <h2>Layout 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eveniet doloremque similique? Neque nemo illo quaerat, tempore voluptates sequi iure, perferendis repellendus numquam iste excepturi, eos quod minima at dicta.</p>
+          <button class="btn mt-4">Button</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="bg-grey-lighter">
-    <div class="container mx-auto py-12 mt-12">
+    <div class="container mx-auto flex flex-wrap items-center py-12">
+      <div class="w-full md:w-2/3 flex items-center p-4">
+        <div>
+          <h2>Layout 4</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eveniet doloremque similique? Neque nemo illo quaerat, tempore voluptates sequi iure, perferendis repellendus numquam iste excepturi, eos quod minima at dicta.</p>
+          <button class="btn mt-4">Button</button>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 p-4">
+        <img class="w-full" src="https://placeimg.com/1000/610/arch" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-grey-lightest">
+    <div class="container mx-auto flex flex-wrap items-center py-12">
+      <div class="w-full md:w-1/3 flex items-center p-4">
+        <div>
+          <h2>Layout 5</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eveniet doloremque similique? Neque nemo illo quaerat, tempore voluptates sequi iure, perferendis repellendus numquam iste excepturi, eos quod minima at dicta.</p>
+          <button class="btn mt-4">Button</button>
+        </div>
+      </div>
+      <div class="w-full md:w-2/3 p-4">
+        <img class="w-full" src="https://placeimg.com/1000/610/arch" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-black relative">
+    <div class="absolute h-full w-full z-10 bg-cover bg-center opacity-25" style="backgroundImage:url(https://images.pexels.com/photos/32870/pexels-photo.jpg?cs=srgb&dl=backyard-house-lights-32870.jpg&fm=jpg)"></div>
+    <div class="container mx-auto flex flex-wrap items-center py-2 text-white relative z-20">
+      <div class="w-full flex items-center p-4">
+        <div class="flex items-center" >
+          <div>
+            <h2>Layout 6</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eveniet doloremque similique? Neque nemo illo quaerat, tempore voluptates sequi iure, perferendis repellendus numquam iste excepturi, eos quod minima at dicta.</p>
+          </div>
+          <div>
+            <button class="btn mt-4">Button</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container mx-auto flex flex-wrap items-center py-6">
+      <div class="w-full md:w-1/4 p-4">
+        <img class="w-full" src="https://placeimg.com/1000/610/arch" alt="">
+      </div>
+      <div class="w-full md:w-3/4 flex items-center p-4">
+        <div>
+          <h2 class="text-lg">Layout 7</h2>
+          <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eveniet doloremque similique? Neque nemo illo quaerat, tempore voluptates sequi iure, perferendis repellendus numquam iste excepturi, eos quod minima at dicta.</p>
+          <button class="btn mt-2 text-sm">Button</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-grey-lighter">
+    <div class="container mx-auto py-12 mb-12">
       <div class="flex">
         <div class="w-1/2 p-6" v-for="property in properties" :key="property.name">
           <div class="shadow-dark-lg rounded-md overflow-hidden bg-white h-full">
