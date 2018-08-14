@@ -126,6 +126,11 @@ a.router-link-active {
   height: 100%;
 }
 
+h1.main-title {
+  background-color: #22292f;
+  box-shadow: -.2em -.0em 0 #22292f, .2em -.0em 0 #22292f, -.2em .0em 0 #22292f, .2em .0em 0 #22292f;
+}
+
 @tailwind utilities;
 
 /**

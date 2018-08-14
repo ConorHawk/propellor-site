@@ -1,5 +1,12 @@
 <template>
-<div class="container mt-12 mx-auto">
+<div>
+  <div class="relative bg-black flex items-center justify-center" style="min-height:350px;">
+    <div class="absolute h-full w-full z-10 bg-cover bg-center opacity-25" style="backgroundImage:url(https://images.pexels.com/photos/6343/village-hotel-building-countryside-6343.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"></div>
+    <div class="relative z-20 flex items-center container justify-center">
+        <h1 style="font-size: 3.25rem;line-height:1.6" class="main-title text-white inline p-2 px-6 text-center">Services</h1>
+    </div>
+  </div>
+  <div class="container my-12 mx-auto">
   <h1>A real estate investment strategy to fit your needs</h1>
   <p>Propellor helps facilitate your investment by introducing you to a team of independent professionals including lawyers, accountants, mortgage brokers and the team at Metropolis Real Estate. Propellor works tirelessly with your advisors and other third parties to ensure you have a property investment strategy that meets your goals. We:</p>
   <div class="flex flex-wrap justify-center py-4">
@@ -26,11 +33,9 @@
   <h2>Property investment: a portfolio of assets that work for you</h2>
   <p>Based on your long-term financial needs and short-term challenges, a tailored investment strategy is prepared for you that provides you with conservative ten-year property projections showing expected outgoings, income and tax savings.</p>
   <p>Propellor Property Investments doesn’t believe in shoe-horning an investor into a property. Rather, our objective is for you to find the best solution to suit your earnings and outgoings—and then ensuring you have the right financial and legal structures in place.</p>
-  <br>
-  <div class="flex justify-center">
-    <p class="text-red italic">We do not charge for our mentoring services or your investment development strategy</p>
-  </div>
 </div>
+</div>
+
 </template>
 
 <script>

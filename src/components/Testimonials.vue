@@ -1,6 +1,12 @@
 <template>
-<div class="container mt-12 mx-auto">
-  <h1>Testimonials</h1>
+<div>
+  <div class="relative bg-black flex items-center justify-center" style="min-height:350px;">
+    <div class="absolute h-full w-full z-10 bg-cover bg-center opacity-25" style="backgroundImage:url(https://images.pexels.com/photos/6343/village-hotel-building-countryside-6343.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"></div>
+    <div class="relative z-20 flex items-center container justify-center">
+        <h1 style="font-size: 3.25rem;line-height:1.6" class="main-title text-white inline p-2 px-6 text-center">Testimonials</h1>
+    </div>
+  </div>
+  <div class="container my-12 mx-auto">
   <div class="flex flex-wrap">
     <div v-for="testimonial in videoTestimonials" :key="testimonial.name" class="p-2 w-1/3">
       <div class='embed-container'><iframe :src='`${testimonial.videoEmbed}?rel=0&amp;showinfo=0`' frameborder='0' allowfullscreen></iframe></div>
@@ -14,6 +20,8 @@
     </div>
   </div>
 </div>
+</div>
+
 </template>
 
 <script>

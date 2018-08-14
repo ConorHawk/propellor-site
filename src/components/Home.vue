@@ -18,7 +18,7 @@
       <p>We work with trusted professionals who create a tailor-made investment strategy for you. This strategy gives private property investors an opportunity to draw on a level of industry knowledge not normally at their disposal. We cover multiple regions of New Zealand with a focus on helping you achieve better returns with Christchurch, Hamilton and Auckland property investment.</p>
       <p>We do not charge for our mentoring services or your investment development strategy</p>
       <p>Whether you are searching for one investment property - or want to build a property investment portfolio, in conjunction with our wide range of trusted professionals - we can help you learn how to invest in real estate successfully.</p>
-      <router-link class="btn" tag="button" to="/investments">Find Out More</router-link>
+      <router-link class="btn mt-8" tag="button" to="/investments">Find Out More</router-link>
     </div>
   </div>
   <div class="bg-grey-lighter">
@@ -28,12 +28,10 @@
           <div class="shadow-dark-lg rounded-md overflow-hidden bg-white h-full">
             <div class="h-48 bg-center bg-cover" :style="{'backgroundImage': `url(${property.image})`}"></div>
             <div class="p-4">
-              <h2>{{property.name}}</h2>
+              <h2 class="text-4xl">{{property.name}}</h2>
+              <p class="font-semibold text-xl text-orange mb-2 mt-0 font-sans font-bold"> <span class="text-grey-darker text-base font-normal">From only <br> </span>{{property.price}}</p>
               <h3 class="text-sm font-semibold">{{property.location}}</h3>
-              <p class="text-base text-grey-darker">{{property.description}}</p>
-              <hr>
-              <p class="font-semibold text-lg">Price: <span class="font-normal">{{property.price}}</span></p>
-              <p class="font-semibold text-lg">Appraised Rental Return: <span class="font-normal">{{property.return}}</span></p>
+              <p class="text-base text-grey-darker mt-4">{{property.description}}</p>
             </div>
           </div>
         </div>
@@ -53,19 +51,17 @@ export default {
     return {
       properties: [
         {
-          name: 'Thackeray Street',
-          location: 'Hamilton',
-          description: 'Thackeray Street features ten premium terraced homes, each with three double bedrooms, two and a half bathrooms and a single garage with internal access and additional parking. With open planliving, designer kitchen and private outdoor living these properties are sure to appeal to a wide range of tenants. Built with a mix of concrete and linea cladding.',
-          price: 'From $599,000',
-          return: '$480 - $500 per week unfurnished or $560 - $580 per week furnished',
-          image: 'https://www.propellorproperties.co.nz/images/stories/image4.JPG'
+          name: 'Kea Mews',
+          description: 'Kea Mews is brought to you by the developer of St Martins Green, The Virtue group. This 24 unit development will consist of two bedroom terrace and standalone properties with a mix of land sizes and they will all come with their own private outdoor area. The cleverly designed single level turn-key townhouses have all the makings of an easy low maintenance investment property with the potential of great returns!',
+          price: '$375,000 plus furniture pack',
+          furniturePack: true,
+          image: 'https://www.propellorproperties.co.nz/images/Olliviers_Rd_Entrance.jpg'
         }, {
-          name: 'Awatea Green - Home and Income',
-          location: 'Christchurch',
-          description: 'With a masterplan that has been shaped to combine a real sense of community, Awatea Green incorporates a thoughtful mix of housing options for a wide variety of investors and homeowners. Shared greenspaces, playground and meandering pathways and cycleways make Awatea Green a great place to invest. Connections to neighbouring communities couldn\'t be easier with local schools, shopping, cafes and restaurants just minutes away',
-          price: '$609,000',
-          return: '$750 - $790 per week',
-          image: 'https://www.propellorproperties.co.nz/images/stories/image4.JPG'
+          name: 'Verdant Lane',
+          description: 'Extensive landscaping, walkways and open spaces complement the village environment of just 50 residences. The residences have been designed with emphasis on functional style and interaction with the natural environment. Verdant Lane represents contemporary design and quality construction consisting of durable concrete, extensive glass and superior fixtures and fittings. The quality of the build begins with the choice of architect: Brent Hulena, an award-winning Auckland-based architect known for creating well-formed and functional modern living spaces.',
+          price: '$589,000!!!',
+          furniturePack: false,
+          image: 'https://www.propellorproperties.co.nz/images/Renders_exterior_Page_2.jpg'
         }
       ]
     }
@@ -74,12 +70,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  h1.main-title {
-    background-color: #22292f;
-    box-shadow: -.2em -.0em 0 #22292f,
-    .2em -.0em 0 #22292f,
-    -.2em .0em 0 #22292f,
-    .2em .0em 0 #22292f;
-  }
+<style>
+  
 </style>

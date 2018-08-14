@@ -1,6 +1,12 @@
 <template>
-<div class="container mt-12 mx-auto">
-  <h1>About Us</h1>
+<div>
+  <div class="relative bg-black flex items-center justify-center" style="min-height:350px;">
+    <div class="absolute h-full w-full z-10 bg-cover bg-center opacity-25" style="backgroundImage:url(https://images.pexels.com/photos/6343/village-hotel-building-countryside-6343.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"></div>
+    <div class="relative z-20 flex items-center container justify-center">
+        <h1 style="font-size: 3.25rem;line-height:1.6" class="main-title text-white inline p-2 px-6 text-center">About us</h1>
+    </div>
+  </div>
+  <div class="container my-12 mx-auto">
   <div class="flex flex-wrap">
     <div class="w-3/4">
       <p>Investing in real estate is not an undertaking for the inexperienced. Like any investment or large financial commitment, it is important that property investment is viewed as a business. When looking at property investment you need the right advice and the correct structures implemented.</p>
@@ -38,10 +44,11 @@
     <hr>
     <div>
       <h2 class="text-4xl">Propellor's Senior Consultants</h2>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap justify-center py-12">
         <div class="w-1/4 p-2" v-for="i in 3" :key="i">
           <div class="p-4 shadow-dark-lg">
-            <img class="rounded-full block mx-auto" src="https://www.propellorproperties.co.nz/images/stories/staff/trevorheadshot-small.jpg" alt="">
+            <div class="bg-cover bg-center mx-auto rounded-full" style="height:120px;width:120px;background-image:url('https://www.propellorproperties.co.nz/images/stories/staff/trevorheadshot-small.jpg')">
+            </div>
             <div class="pt-4">
               <h3>Trevor McGrath</h3>
               <p class="text-sm mb-0"><span class="fa fa-phone"></span> +64 (0) 21 348662</p>
@@ -52,10 +59,9 @@
       </div>
     </div>
   </div>
-  
-  
-  
 </div>
+</div>
+
 </template>
 
 <script>
