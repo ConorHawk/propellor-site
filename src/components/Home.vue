@@ -47,16 +47,16 @@
     <div class="container mx-auto py-12">
       <h2 class="text-center mb-8">Charities</h2>
       <div class="flex flex-col md:flex-row flex-wrap">
-        <div class="p-8 flex items-center justify-center flex-1">
+        <div class="px-8 pb-8 flex items-center justify-center flex-1">
           <img style="max-width:250px" src="/static/images/charities/lgfb_grey.png" alt="">
         </div>
-        <div class="p-8 flex items-center justify-center flex-1">
+        <div class="px-8 pb-8 flex items-center justify-center flex-1">
           <img style="max-width:250px" src="/static/images/charities/habitat_grey.png" alt="">
         </div>
-        <div class="p-8 flex items-center justify-center flex-1">
+        <div class="px-8 pb-8 flex items-center justify-center flex-1">
           <img style="max-width:250px" src="/static/images/charities/canterbury_grey.png" alt="">
         </div>
-        <div class="p-8 flex items-center justify-center flex-1">
+        <div class="px-8 pb-8 flex items-center justify-center flex-1">
           <img style="max-width:250px" src="/static/images/charities/RMHSI_grey.png" alt="">
         </div>
       </div>
