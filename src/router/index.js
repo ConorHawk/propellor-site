@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import Services from '@/components/Services'
 import Investments from '@/components/Investments'
 import Showcase from '@/components/Showcase'
+import Showcase2 from '@/components/Showcase2'
 import Testimonials from '@/components/Testimonials'
 import AboutUs from '@/components/AboutUs'
 import Events from '@/components/Events'
@@ -28,6 +29,10 @@ export default new Router({
       path: '/showcase',
       name: 'Showcase',
       component: Showcase
+    }, {
+      path: '/showcase2',
+      name: 'Showcase2',
+      component: Showcase2
     }, {
       path: '/testimonials',
       name: 'Testimonials',
