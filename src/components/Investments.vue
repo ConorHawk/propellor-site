@@ -1,7 +1,6 @@
 <template>
 <div>
-  <div class="relative bg-black flex items-center justify-center" style="min-height:350px;">
-    <div class="absolute h-full w-full z-10 bg-cover bg-center opacity-25" style="backgroundImage:url(https://images.pexels.com/photos/6343/village-hotel-building-countryside-6343.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"></div>
+  <div class="relative bg-black flex items-center justify-center" style="min-height:350px;backgroundImage:url(https://images.pexels.com/photos/6343/village-hotel-building-countryside-6343.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
     <div class="relative z-20 flex items-center container justify-center">
         <h1 style="font-size: 3.25rem;line-height:1.6" class="main-title text-white inline p-2 px-6 text-center">Investments</h1>
     </div>

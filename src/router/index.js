@@ -8,6 +8,7 @@ import Showcase2 from '@/components/Showcase2'
 import Testimonials from '@/components/Testimonials'
 import AboutUs from '@/components/AboutUs'
 import Events from '@/components/Events'
+import ContactUs from '@/components/ContactUs'
 
 Vue.use(Router)
 
@@ -45,6 +46,10 @@ export default new Router({
       path: '/events',
       name: 'Events',
       component: Events
+    }, {
+      path: '/contact-us',
+      name: 'ContactUs',
+      component: ContactUs
     }
   ]
 })

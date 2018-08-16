@@ -10,11 +10,11 @@
           <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/investments">Investments</router-link></li>
           <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/services">Services</router-link></li>
           <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/charity">Charity</router-link></li>
-          <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/showcase">Showcase</router-link></li>
+          <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/showcase2">Showcase</router-link></li>
           <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/testimonials">Testimonials</router-link></li>
           <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/events">Events</router-link></li>
           <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/about-us">About</router-link></li>
-          <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/about-us">Contact</router-link></li>
+          <li class="mx-2"><router-link class="text-white text-base no-underline font-sans" to="/contact-us">Contact</router-link></li>
         </ul>
       </div>
     </div>
